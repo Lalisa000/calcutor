@@ -36,5 +36,42 @@ namespace calc
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(this.textBox1.Text);
+            double num2 = Convert.ToDouble(this.textBox2.Text);
+            double num3 = num1 + num2;
+            this.textBox3.Text = num3.ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(this.textBox1.Text);
+            double num2 = Convert.ToDouble(this.textBox2.Text);
+            double num3 = num1 - num2;
+            this.textBox3.Text = num3.ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(this.textBox1.Text);
+            double num2 = Convert.ToDouble(this.textBox2.Text);
+            double num3 = num1 * num2;
+            this.textBox3.Text = num3.ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double num1 = Convert.ToDouble(this.textBox1.Text);
+            double num2 = Convert.ToDouble(this.textBox2.Text);
+            double num3 = num1 / num2;
+            this.textBox3.Text = num3.ToString();
+        }
     }
 }
