@@ -23,23 +23,8 @@ namespace calc
             double firstNumber = Convert.ToDouble(this.textBox1.Text);
             double secondNumber = Convert.ToDouble(this.textBox2.Text);
             double result;
-            switch (((Button)sender).Name)
-            {
-                case "summary":
-                    result = firstNumber + secondNumber;
-                    break;
-                case "subtraction":
-                    result = firstNumber - secondNumber;
-                    break;
-                case "multiplication":
-                    result = firstNumber * secondNumber;
-                    break;
-                case "division":
-                    result = firstNumber / secondNumber;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+            result = calculator.calculate(firstNumber, secondNumber);
             this.textBox3.Text = result.ToString();
 
         }
