@@ -18,7 +18,7 @@ namespace calc
         }
 
 
-        private void unionsi(object sender, EventArgs e)
+        private void Calculate(object sender, EventArgs e)
         {
             double firstNumber = Convert.ToDouble(this.textBox1.Text);
             double secondNumber = Convert.ToDouble(this.textBox2.Text);
