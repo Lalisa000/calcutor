@@ -17,6 +17,32 @@ namespace calc
             InitializeComponent();
         }
 
+
+        private void unionsi(object sender, EventArgs e)
+        {
+            double firstNumber = Convert.ToDouble(this.textBox1.Text);
+            double secondNumber = Convert.ToDouble(this.textBox2.Text);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "summary":
+                    result = firstNumber + secondNumber;
+                    break;
+                case "subtraction":
+                    result = firstNumber - secondNumber;
+                    break;
+                case "multiplication":
+                    result = firstNumber * secondNumber;
+                    break;
+                case "division":
+                    result = firstNumber / secondNumber;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+            this.textBox3.Text = result.ToString();
+
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -42,36 +68,36 @@ namespace calc
 
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            double num1 = Convert.ToDouble(this.textBox1.Text);
-            double num2 = Convert.ToDouble(this.textBox2.Text);
-            double num3 = num1 + num2;
-            this.textBox3.Text = num3.ToString();
-        }
+        //private void button1_Click_1(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double secondNumber = Convert.ToDouble(this.textBox2.Text);
+        //    double result = firstNumber + secondNumber;
+        //    this.textBox3.Text = result.ToString();
+        //}
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            double num1 = Convert.ToDouble(this.textBox1.Text);
-            double num2 = Convert.ToDouble(this.textBox2.Text);
-            double num3 = num1 - num2;
-            this.textBox3.Text = num3.ToString();
-        }
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double secondNumber = Convert.ToDouble(this.textBox2.Text);
+        //    double result = firstNumber - secondNumber;
+        //    this.textBox3.Text = result.ToString();
+        //}
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            double num1 = Convert.ToDouble(this.textBox1.Text);
-            double num2 = Convert.ToDouble(this.textBox2.Text);
-            double num3 = num1 * num2;
-            this.textBox3.Text = num3.ToString();
-        }
+        //private void button3_Click(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double secondNumber = Convert.ToDouble(this.textBox2.Text);
+        //    double result = firstNumber * secondNumber;
+        //    this.textBox3.Text = result.ToString();
+        //}
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            double num1 = Convert.ToDouble(this.textBox1.Text);
-            double num2 = Convert.ToDouble(this.textBox2.Text);
-            double num3 = num1 / num2;
-            this.textBox3.Text = num3.ToString();
-        }
+        //private void button4_Click(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double secondNumber = Convert.ToDouble(this.textBox2.Text);
+        //    double result = firstNumber / secondNumber;
+        //    this.textBox3.Text = result.ToString();
+        //}
     }
 }
