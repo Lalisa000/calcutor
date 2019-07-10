@@ -15,7 +15,7 @@ namespace calc.Tests
         public void CalculationTest()
         {
             var calculator = new Cos();
-            double actual = calculator.calculate(1);
+            double actual = calculator.calculate(0);
             Assert.AreEqual(1, actual, 0.00);
         }
     }
