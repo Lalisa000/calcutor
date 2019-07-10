@@ -26,8 +26,16 @@ namespace calc
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
             result = calculator.calculate(firstNumber, secondNumber);
             this.textBox3.Text = result.ToString();
-
         }
+        //private void CalculateOne(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double result;
+        //    ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+        //    result = calculator.calculate(firstNumber, secondNumber);
+        //    this.textBox3.Text = result.ToString();
+        //}
+
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -52,6 +60,21 @@ namespace calc
         {
 
         }
+
+        //private void extraction_Click(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double result = Math.Sqrt(firstNumber);
+        //    this.textBox3.Text = result.ToString();
+        //}
+
+        //private void exponentiating_Click(object sender, EventArgs e)
+        //{
+        //    double firstNumber = Convert.ToDouble(this.textBox1.Text);
+        //    double secondNumber = Convert.ToDouble(this.textBox2.Text);
+        //    double result = Math.Pow(firstNumber, secondNumber);
+        //    this.textBox3.Text = result.ToString();
+        //}
 
         //private void button1_Click_1(object sender, EventArgs e)
         //{

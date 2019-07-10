@@ -38,6 +38,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.extraction = new System.Windows.Forms.Button();
+            this.exponentiating = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -130,11 +132,33 @@
             this.textBox3.TabIndex = 10;
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // extraction
+            // 
+            this.extraction.Location = new System.Drawing.Point(250, 111);
+            this.extraction.Name = "extraction";
+            this.extraction.Size = new System.Drawing.Size(37, 28);
+            this.extraction.TabIndex = 11;
+            this.extraction.Text = "√";
+            this.extraction.UseVisualStyleBackColor = true;
+            this.extraction.Click += new System.EventHandler(this.Calculate);
+            // 
+            // exponentiating
+            // 
+            this.exponentiating.Location = new System.Drawing.Point(303, 111);
+            this.exponentiating.Name = "exponentiating";
+            this.exponentiating.Size = new System.Drawing.Size(37, 28);
+            this.exponentiating.TabIndex = 12;
+            this.exponentiating.Text = "^";
+            this.exponentiating.UseVisualStyleBackColor = true;
+            this.exponentiating.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 204);
+            this.Controls.Add(this.exponentiating);
+            this.Controls.Add(this.extraction);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -164,6 +188,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button extraction;
+        private System.Windows.Forms.Button exponentiating;
     }
 }
 

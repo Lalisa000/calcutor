@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace calc
 {
+    using System.Runtime.Remoting.Messaging;
+
     public static class TwoArgumentsFactory
     {
         public static ITwoArgumentsCalculator CreateCalculator(String name)
@@ -20,6 +22,10 @@ namespace calc
                     return new Multiplicator();
                 case "division":
                     return new Divisioner();
+                //case "extraction":
+                //    return new Extractor();
+                //case "exponentiating":
+                //    return new Exponentor(); 
                 default:
                     throw new Exception("Неизвестная операция");
             }
