@@ -40,11 +40,17 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.extraction = new System.Windows.Forms.Button();
             this.exponentiating = new System.Windows.Forms.Button();
+            this.cos = new System.Windows.Forms.Button();
+            this.sin = new System.Windows.Forms.Button();
+            this.tan = new System.Windows.Forms.Button();
+            this.ctan = new System.Windows.Forms.Button();
+            this.asin = new System.Windows.Forms.Button();
+            this.acos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
             // 
-            this.summary.Location = new System.Drawing.Point(12, 111);
+            this.summary.Location = new System.Drawing.Point(12, 89);
             this.summary.Name = "summary";
             this.summary.Size = new System.Drawing.Size(37, 28);
             this.summary.TabIndex = 0;
@@ -54,7 +60,7 @@
             // 
             // subtraction
             // 
-            this.subtraction.Location = new System.Drawing.Point(69, 111);
+            this.subtraction.Location = new System.Drawing.Point(55, 89);
             this.subtraction.Name = "subtraction";
             this.subtraction.Size = new System.Drawing.Size(37, 28);
             this.subtraction.TabIndex = 1;
@@ -64,7 +70,7 @@
             // 
             // multiplication
             // 
-            this.multiplication.Location = new System.Drawing.Point(135, 111);
+            this.multiplication.Location = new System.Drawing.Point(12, 123);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(37, 28);
             this.multiplication.TabIndex = 2;
@@ -74,7 +80,7 @@
             // 
             // division
             // 
-            this.division.Location = new System.Drawing.Point(194, 111);
+            this.division.Location = new System.Drawing.Point(55, 123);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(37, 28);
             this.division.TabIndex = 3;
@@ -132,7 +138,7 @@
             // 
             // extraction
             // 
-            this.extraction.Location = new System.Drawing.Point(250, 111);
+            this.extraction.Location = new System.Drawing.Point(12, 157);
             this.extraction.Name = "extraction";
             this.extraction.Size = new System.Drawing.Size(37, 28);
             this.extraction.TabIndex = 11;
@@ -142,7 +148,7 @@
             // 
             // exponentiating
             // 
-            this.exponentiating.Location = new System.Drawing.Point(303, 111);
+            this.exponentiating.Location = new System.Drawing.Point(55, 157);
             this.exponentiating.Name = "exponentiating";
             this.exponentiating.Size = new System.Drawing.Size(37, 28);
             this.exponentiating.TabIndex = 12;
@@ -150,11 +156,77 @@
             this.exponentiating.UseVisualStyleBackColor = true;
             this.exponentiating.Click += new System.EventHandler(this.CalculateOne);
             // 
+            // cos
+            // 
+            this.cos.Location = new System.Drawing.Point(122, 89);
+            this.cos.Name = "cos";
+            this.cos.Size = new System.Drawing.Size(44, 26);
+            this.cos.TabIndex = 13;
+            this.cos.Text = "cos";
+            this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // sin
+            // 
+            this.sin.Location = new System.Drawing.Point(172, 89);
+            this.sin.Name = "sin";
+            this.sin.Size = new System.Drawing.Size(44, 26);
+            this.sin.TabIndex = 14;
+            this.sin.Text = "sin";
+            this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // tan
+            // 
+            this.tan.Location = new System.Drawing.Point(122, 121);
+            this.tan.Name = "tan";
+            this.tan.Size = new System.Drawing.Size(44, 26);
+            this.tan.TabIndex = 15;
+            this.tan.Text = "tg";
+            this.tan.UseVisualStyleBackColor = true;
+            this.tan.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // ctan
+            // 
+            this.ctan.Location = new System.Drawing.Point(172, 121);
+            this.ctan.Name = "ctan";
+            this.ctan.Size = new System.Drawing.Size(44, 26);
+            this.ctan.TabIndex = 16;
+            this.ctan.Text = "ctg";
+            this.ctan.UseVisualStyleBackColor = true;
+            this.ctan.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // asin
+            // 
+            this.asin.Location = new System.Drawing.Point(172, 153);
+            this.asin.Name = "asin";
+            this.asin.Size = new System.Drawing.Size(44, 26);
+            this.asin.TabIndex = 17;
+            this.asin.Text = "asin";
+            this.asin.UseVisualStyleBackColor = true;
+            this.asin.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // acos
+            // 
+            this.acos.Location = new System.Drawing.Point(122, 153);
+            this.acos.Name = "acos";
+            this.acos.Size = new System.Drawing.Size(44, 26);
+            this.acos.TabIndex = 18;
+            this.acos.Text = "acos";
+            this.acos.UseVisualStyleBackColor = true;
+            this.acos.Click += new System.EventHandler(this.CalculateOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(385, 204);
+            this.Controls.Add(this.acos);
+            this.Controls.Add(this.asin);
+            this.Controls.Add(this.ctan);
+            this.Controls.Add(this.tan);
+            this.Controls.Add(this.sin);
+            this.Controls.Add(this.cos);
             this.Controls.Add(this.exponentiating);
             this.Controls.Add(this.extraction);
             this.Controls.Add(this.textBox3);
@@ -188,6 +260,12 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button extraction;
         private System.Windows.Forms.Button exponentiating;
+        private System.Windows.Forms.Button cos;
+        private System.Windows.Forms.Button sin;
+        private System.Windows.Forms.Button tan;
+        private System.Windows.Forms.Button ctan;
+        private System.Windows.Forms.Button asin;
+        private System.Windows.Forms.Button acos;
     }
 }
 

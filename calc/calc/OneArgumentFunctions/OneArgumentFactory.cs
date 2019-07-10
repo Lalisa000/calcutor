@@ -12,18 +12,23 @@ namespace calc
         {
             switch (name)
             {
-                //case "summary":
-                //    return new Additioner();
-                //case "subtraction":
-                //    return new Subtrackter();
-                //case "multiplication":
-                //    return new Multiplicator();
-                //case "division":
-                //    return new Divisioner();
+               
                 case "extraction":
                     return new Extractor();
                 case "exponentiating":
                     return new Exponentor();
+                case "cos":
+                    return new Cos();
+                case "sin":
+                    return new Sin();
+                case "tan":
+                    return new Tan();
+                case "ctan":
+                    return new Ctan();
+                case "asin":
+                    return new Arcsin();
+                case "acos":
+                    return new Arccos();
                 default:
                     throw new Exception("Неизвестная операция");
             }
