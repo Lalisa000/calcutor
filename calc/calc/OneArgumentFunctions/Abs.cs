@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Abs : IOneArgumentCalculator
+    public class Abs : IOneArgumentCalculator
     {
-        double IOneArgumentCalculator.calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Abs(firstNumber);
         }

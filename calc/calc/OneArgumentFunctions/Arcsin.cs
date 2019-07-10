@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Arcsin : IOneArgumentCalculator
+    public class Arcsin : IOneArgumentCalculator
     {
-        double IOneArgumentCalculator.calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Asin(firstNumber);
         }

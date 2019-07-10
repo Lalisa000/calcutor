@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Arccos : IOneArgumentCalculator
+    public class Arccos : IOneArgumentCalculator
     {
-        double IOneArgumentCalculator.calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Acos(firstNumber);
         }

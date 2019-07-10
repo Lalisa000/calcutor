@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentFunctions\CosTest.cs" />
+    <Compile Include="OneArgumentFunctions\SinTest.cs" />
     <Compile Include="TwoArgumentFunctions\Subtrackter.cs" />
     <Compile Include="TwoArgumentFunctions\DivisionerTest.cs" />
     <Compile Include="TwoArgumentFunctions\MultiplicatorTest.cs" />

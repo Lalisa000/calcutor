@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Cos : IOneArgumentCalculator
+    public class Cos : IOneArgumentCalculator
     {
-        double IOneArgumentCalculator.calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Cos(firstNumber);
         }

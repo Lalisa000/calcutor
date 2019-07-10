@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class LogTwo : IOneArgumentCalculator
+    public class LogTwo : IOneArgumentCalculator
     {
-        double IOneArgumentCalculator.calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Log(firstNumber, 2);
         }

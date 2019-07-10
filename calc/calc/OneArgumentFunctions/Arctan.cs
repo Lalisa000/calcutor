@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Arctan : IOneArgumentCalculator
+    public class Arctan : IOneArgumentCalculator
     {
-        public double calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return 1/Math.Atan(firstNumber);
         }

@@ -8,11 +8,9 @@ namespace calc
 {
     public class Exponentor : IOneArgumentCalculator
     {
-        public double calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Pow(firstNumber, 2);
         }
-
-       // double IOneArgumentCalculator.calculateE(double firstNumber) => throw new NotImplementedException();
     }
 }

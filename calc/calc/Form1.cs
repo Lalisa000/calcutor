@@ -33,7 +33,7 @@ namespace calc
             double firstNumber = Convert.ToDouble(this.textBox1.Text);
             double result;
             IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            result = calculator.calculateE(firstNumber);
+            result = calculator.calculate(firstNumber);
             this.textBox3.Text = result.ToString();
         }
     }

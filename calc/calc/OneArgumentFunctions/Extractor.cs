@@ -8,7 +8,7 @@ namespace calc
 {
     public class Extractor : IOneArgumentCalculator
     {
-        public double calculateE(double firstNumber)
+        public double calculate(double firstNumber)
         {
             return Math.Sqrt(firstNumber);
         }

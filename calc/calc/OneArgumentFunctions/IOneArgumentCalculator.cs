@@ -8,6 +8,6 @@ namespace calc
 {
     public interface IOneArgumentCalculator
     {
-        double calculateE(double firstNumber);
+        double calculate(double firstNumber);
     }
 }
