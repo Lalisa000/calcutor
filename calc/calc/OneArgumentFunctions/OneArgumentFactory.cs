@@ -29,6 +29,14 @@ namespace calc
                     return new Arcsin();
                 case "acos":
                     return new Arccos();
+                case "arctg":
+                    return new Arctan();
+                case "arcctg":
+                    return new Arcctan();
+                case "abs":
+                    return new Abs();
+                case "reverse":
+                    return new Reverse();
                 default:
                     throw new Exception("Неизвестная операция");
             }

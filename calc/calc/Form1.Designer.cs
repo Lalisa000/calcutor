@@ -46,6 +46,10 @@
             this.ctan = new System.Windows.Forms.Button();
             this.asin = new System.Windows.Forms.Button();
             this.acos = new System.Windows.Forms.Button();
+            this.arctg = new System.Windows.Forms.Button();
+            this.arcctg = new System.Windows.Forms.Button();
+            this.abs = new System.Windows.Forms.Button();
+            this.reverse = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -216,11 +220,55 @@
             this.acos.UseVisualStyleBackColor = true;
             this.acos.Click += new System.EventHandler(this.CalculateOne);
             // 
+            // arctg
+            // 
+            this.arctg.Location = new System.Drawing.Point(222, 91);
+            this.arctg.Name = "arctg";
+            this.arctg.Size = new System.Drawing.Size(44, 26);
+            this.arctg.TabIndex = 19;
+            this.arctg.Text = "arctg";
+            this.arctg.UseVisualStyleBackColor = true;
+            this.arctg.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // arcctg
+            // 
+            this.arcctg.Location = new System.Drawing.Point(222, 125);
+            this.arcctg.Name = "arcctg";
+            this.arcctg.Size = new System.Drawing.Size(44, 26);
+            this.arcctg.TabIndex = 20;
+            this.arcctg.Text = "arcctg";
+            this.arcctg.UseVisualStyleBackColor = true;
+            this.arcctg.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // abs
+            // 
+            this.abs.Location = new System.Drawing.Point(336, 91);
+            this.abs.Name = "abs";
+            this.abs.Size = new System.Drawing.Size(44, 26);
+            this.abs.TabIndex = 21;
+            this.abs.Text = "|  |";
+            this.abs.UseVisualStyleBackColor = true;
+            this.abs.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // reverse
+            // 
+            this.reverse.Location = new System.Drawing.Point(286, 91);
+            this.reverse.Name = "reverse";
+            this.reverse.Size = new System.Drawing.Size(44, 26);
+            this.reverse.TabIndex = 22;
+            this.reverse.Text = "1/x";
+            this.reverse.UseVisualStyleBackColor = true;
+            this.reverse.Click += new System.EventHandler(this.CalculateOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 204);
+            this.ClientSize = new System.Drawing.Size(387, 345);
+            this.Controls.Add(this.reverse);
+            this.Controls.Add(this.abs);
+            this.Controls.Add(this.arcctg);
+            this.Controls.Add(this.arctg);
             this.Controls.Add(this.acos);
             this.Controls.Add(this.asin);
             this.Controls.Add(this.ctan);
@@ -266,6 +314,10 @@
         private System.Windows.Forms.Button ctan;
         private System.Windows.Forms.Button asin;
         private System.Windows.Forms.Button acos;
+        private System.Windows.Forms.Button arctg;
+        private System.Windows.Forms.Button arcctg;
+        private System.Windows.Forms.Button abs;
+        private System.Windows.Forms.Button reverse;
     }
 }
 
