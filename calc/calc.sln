@@ -5,6 +5,24 @@ VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calc", "calc\calc.csproj", "{40BDE9FE-F133-457A-A4E3-A19DC8818F81}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TwoArgumentFunction", "TwoArgumentFunction", "{67E524AF-63DB-4B60-A359-2DBC5923D71D}"
+	ProjectSection(SolutionItems) = preProject
+		calc\Additioner.cs = calc\Additioner.cs
+		calc\Divisioner.cs = calc\Divisioner.cs
+		calc\ITwoArgumentsCalculator.cs = calc\ITwoArgumentsCalculator.cs
+		calc\Multiplicator.cs = calc\Multiplicator.cs
+		calc\Subtrackter.cs = calc\Subtrackter.cs
+		calc\TwoArgumentsFactory.cs = calc\TwoArgumentsFactory.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneArgumentFunction", "OneArgumentFunction", "{55656DC3-0B18-4925-B89B-BCABB78F8D9A}"
+	ProjectSection(SolutionItems) = preProject
+		calc\Exponentor.cs = calc\Exponentor.cs
+		calc\Extractor.cs = calc\Extractor.cs
+		calc\IOneArgumentCalculator.cs = calc\IOneArgumentCalculator.cs
+		calc\OneArgumentFactory.cs = calc\OneArgumentFactory.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
