@@ -37,6 +37,10 @@ namespace calc
                     return new Abs();
                 case "reverse":
                     return new Reverse();
+                case "ln":
+                    return new NaturalLog();
+                case "exp":
+                    return new Exp();
                 default:
                     throw new Exception("Неизвестная операция");
             }

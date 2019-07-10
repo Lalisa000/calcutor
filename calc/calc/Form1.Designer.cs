@@ -50,6 +50,8 @@
             this.arcctg = new System.Windows.Forms.Button();
             this.abs = new System.Windows.Forms.Button();
             this.reverse = new System.Windows.Forms.Button();
+            this.ln = new System.Windows.Forms.Button();
+            this.exp = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -260,11 +262,33 @@
             this.reverse.UseVisualStyleBackColor = true;
             this.reverse.Click += new System.EventHandler(this.CalculateOne);
             // 
+            // ln
+            // 
+            this.ln.Location = new System.Drawing.Point(286, 123);
+            this.ln.Name = "ln";
+            this.ln.Size = new System.Drawing.Size(44, 26);
+            this.ln.TabIndex = 23;
+            this.ln.Text = "ln(x)";
+            this.ln.UseVisualStyleBackColor = true;
+            this.ln.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // exp
+            // 
+            this.exp.Location = new System.Drawing.Point(336, 125);
+            this.exp.Name = "exp";
+            this.exp.Size = new System.Drawing.Size(44, 26);
+            this.exp.TabIndex = 24;
+            this.exp.Text = "e^x";
+            this.exp.UseVisualStyleBackColor = true;
+            this.exp.Click += new System.EventHandler(this.CalculateOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 345);
+            this.Controls.Add(this.exp);
+            this.Controls.Add(this.ln);
             this.Controls.Add(this.reverse);
             this.Controls.Add(this.abs);
             this.Controls.Add(this.arcctg);
@@ -318,6 +342,8 @@
         private System.Windows.Forms.Button arcctg;
         private System.Windows.Forms.Button abs;
         private System.Windows.Forms.Button reverse;
+        private System.Windows.Forms.Button ln;
+        private System.Windows.Forms.Button exp;
     }
 }
 
