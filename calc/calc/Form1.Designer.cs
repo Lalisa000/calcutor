@@ -89,7 +89,6 @@
             this.textBox1.Size = new System.Drawing.Size(92, 20);
             this.textBox1.TabIndex = 4;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -106,7 +105,6 @@
             this.label2.Size = new System.Drawing.Size(114, 23);
             this.label2.TabIndex = 7;
             this.label2.Text = "Первый аргумент";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
