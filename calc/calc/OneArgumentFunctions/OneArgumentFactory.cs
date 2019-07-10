@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace calc
 {
+    using System.Runtime.Remoting.Messaging;
+
     public static class OneArgumentFactory
     {
         public static IOneArgumentCalculator CreateCalculator(String name)
@@ -41,6 +43,10 @@ namespace calc
                     return new NaturalLog();
                 case "exp":
                     return new Exp();
+                case "two":
+                    return new Two();
+                case "logtwo":
+                    return new LogTwo();
                 default:
                     throw new Exception("Неизвестная операция");
             }

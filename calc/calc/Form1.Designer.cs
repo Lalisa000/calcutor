@@ -52,6 +52,8 @@
             this.reverse = new System.Windows.Forms.Button();
             this.ln = new System.Windows.Forms.Button();
             this.exp = new System.Windows.Forms.Button();
+            this.two = new System.Windows.Forms.Button();
+            this.logtwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -282,11 +284,33 @@
             this.exp.UseVisualStyleBackColor = true;
             this.exp.Click += new System.EventHandler(this.CalculateOne);
             // 
+            // two
+            // 
+            this.two.Location = new System.Drawing.Point(285, 157);
+            this.two.Name = "two";
+            this.two.Size = new System.Drawing.Size(44, 26);
+            this.two.TabIndex = 25;
+            this.two.Text = "2^x";
+            this.two.UseVisualStyleBackColor = true;
+            this.two.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // logtwo
+            // 
+            this.logtwo.Location = new System.Drawing.Point(336, 159);
+            this.logtwo.Name = "logtwo";
+            this.logtwo.Size = new System.Drawing.Size(47, 26);
+            this.logtwo.TabIndex = 26;
+            this.logtwo.Text = "log2(x)";
+            this.logtwo.UseVisualStyleBackColor = true;
+            this.logtwo.Click += new System.EventHandler(this.CalculateOne);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 345);
+            this.Controls.Add(this.logtwo);
+            this.Controls.Add(this.two);
             this.Controls.Add(this.exp);
             this.Controls.Add(this.ln);
             this.Controls.Add(this.reverse);
@@ -344,6 +368,8 @@
         private System.Windows.Forms.Button reverse;
         private System.Windows.Forms.Button ln;
         private System.Windows.Forms.Button exp;
+        private System.Windows.Forms.Button two;
+        private System.Windows.Forms.Button logtwo;
     }
 }
 
