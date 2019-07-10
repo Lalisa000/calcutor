@@ -8,7 +8,7 @@ namespace calc
 {
     public static class OneArgumentFactory
     {
-        public static ITwoArgumentsCalculator CreateCalculatorE(String name)
+        public static IOneArgumentCalculator CreateCalculator(String name)
         {
             switch (name)
             {

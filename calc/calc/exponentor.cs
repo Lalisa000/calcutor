@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Exponentor : ITwoArgumentsCalculator
+    public class Exponentor : IOneArgumentCalculator
     {
-        public double calculate(double firstNumber, double secondNumber)
+        public double calculateE(double firstNumber)
         {
-            return Math.Pow(firstNumber, secondNumber);
+            return Math.Pow(firstNumber, 2);
         }
+
+       // double IOneArgumentCalculator.calculateE(double firstNumber) => throw new NotImplementedException();
     }
 }

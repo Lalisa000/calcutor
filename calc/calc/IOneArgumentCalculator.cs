@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    interface IOneArgumentCalculator
+    public interface IOneArgumentCalculator
     {
         double calculateE(double firstNumber);
     }

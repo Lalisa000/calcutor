@@ -140,7 +140,7 @@
             this.extraction.TabIndex = 11;
             this.extraction.Text = "√";
             this.extraction.UseVisualStyleBackColor = true;
-            this.extraction.Click += new System.EventHandler(this.Calculate);
+            this.extraction.Click += new System.EventHandler(this.CalculateOne);
             // 
             // exponentiating
             // 
@@ -150,7 +150,7 @@
             this.exponentiating.TabIndex = 12;
             this.exponentiating.Text = "^";
             this.exponentiating.UseVisualStyleBackColor = true;
-            this.exponentiating.Click += new System.EventHandler(this.Calculate);
+            this.exponentiating.Click += new System.EventHandler(this.CalculateOne);
             // 
             // Form1
             // 
