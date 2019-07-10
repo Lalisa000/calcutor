@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Subtrackter : ITwoArgumentsCalculator
+    public class Subtrackter : ITwoArgumentsCalculator
     {
         public double calculate(double firstNumber, double secondNumber)
         {
