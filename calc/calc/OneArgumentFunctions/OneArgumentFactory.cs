@@ -4,6 +4,11 @@ namespace calc
 {
     public static class OneArgumentFactory
     {
+        /// <summary>
+        /// фабрика для функций с одним аргументом: логарифмические, тригонометрические и т.д.
+        /// </summary>
+        /// <param name="name"> выбор конпки </param>
+        /// <returns> вовращение завершенных вычислений </returns>
         public static IOneArgumentCalculator CreateCalculator(String name)
         {
             switch (name)

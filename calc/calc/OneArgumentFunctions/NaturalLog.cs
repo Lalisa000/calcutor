@@ -4,6 +4,11 @@ namespace calc
 {
     public class NaturalLog : IOneArgumentCalculator
     {
+        /// <summary>
+        /// функция для вычисления значения натурального логарифма
+        /// </summary>
+        /// <param name="firstNumber"> число, которому равно значение логарифма </param>
+        /// <returns> вовращение результата операции </returns>
         public double calculate(double firstNumber)
         {
             if (firstNumber <= 0)
