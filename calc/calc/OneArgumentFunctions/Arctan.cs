@@ -10,7 +10,7 @@ namespace calc
     {
         public double calculate(double firstNumber)
         {
-            return 1/Math.Atan(firstNumber);
+            return Math.Atan(firstNumber);
         }
     }
 }

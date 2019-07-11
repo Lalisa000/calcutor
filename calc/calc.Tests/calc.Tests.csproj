@@ -48,13 +48,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentFunctions\ArcctanTest.cs" />
+    <Compile Include="OneArgumentFunctions\AbsTest.cs" />
+    <Compile Include="OneArgumentFunctions\ExtractorTest.cs" />
     <Compile Include="OneArgumentFunctions\CosTest.cs" />
     <Compile Include="OneArgumentFunctions\SinTest.cs" />
     <Compile Include="TwoArgumentFunctions\Subtrackter.cs" />
     <Compile Include="TwoArgumentFunctions\DivisionerTest.cs" />
     <Compile Include="TwoArgumentFunctions\MultiplicatorTest.cs" />
     <Compile Include="TwoArgumentFunctions\AdditionerTest.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="OneArgumentFunctions\ArccosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

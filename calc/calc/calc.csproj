@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArithmeticMean.cs" />
-    <Compile Include="Degree.cs" />
-    <Compile Include="Degree10.cs" />
-    <Compile Include="GeometricMean.cs" />
-    <Compile Include="LogXY.cs" />
-    <Compile Include="Negative.cs" />
+    <Compile Include="OneArgumentFunctions\ArithmeticMean.cs" />
+    <Compile Include="TwoArgumentFunctions\Degree.cs" />
+    <Compile Include="OneArgumentFunctions\Degree10.cs" />
+    <Compile Include="OneArgumentFunctions\GeometricMean.cs" />
+    <Compile Include="TwoArgumentFunctions\LogXY.cs" />
+    <Compile Include="OneArgumentFunctions\Negative.cs" />
     <Compile Include="OneArgumentFunctions\LogTwo.cs" />
     <Compile Include="OneArgumentFunctions\Exp.cs" />
     <Compile Include="OneArgumentFunctions\NaturalLog.cs" />
