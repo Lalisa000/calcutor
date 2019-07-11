@@ -13,21 +13,35 @@ namespace calc
 
         private void Calculate(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(this.textBox1.Text);
-            double secondNumber = Convert.ToDouble(this.textBox2.Text);
-            double result;
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
-            result = calculator.calculate(firstNumber, secondNumber);
-            this.textBox3.Text = result.ToString();
+            try
+            {
+                double firstNumber = Convert.ToDouble(this.textBox1.Text);
+                double secondNumber = Convert.ToDouble(this.textBox2.Text);
+                double result;
+                ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
+                result = calculator.calculate(firstNumber, secondNumber);
+                this.textBox3.Text = result.ToString();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void CalculateOne(object sender, EventArgs e)
         {
-            double firstNumber = Convert.ToDouble(this.textBox1.Text);
-            double result;
-            IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
-            result = calculator.calculate(firstNumber);
-            this.textBox3.Text = result.ToString();
+            try
+            {
+                double firstNumber = Convert.ToDouble(this.textBox1.Text);
+                double result;
+                IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
+                result = calculator.calculate(firstNumber);
+                this.textBox3.Text = result.ToString();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
