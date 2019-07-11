@@ -48,17 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OneArgumentFunctions\NaturalLogTest.cs" />
+    <Compile Include="OneArgumentFunctions\NegativeTest.cs" />
+    <Compile Include="OneArgumentFunctions\LogTwoNest.cs" />
+    <Compile Include="OneArgumentFunctions\ExponentorTest.cs" />
+    <Compile Include="OneArgumentFunctions\ExpTest.cs" />
+    <Compile Include="OneArgumentFunctions\Degree10Test.cs" />
+    <Compile Include="OneArgumentFunctions\CtanTest.cs" />
+    <Compile Include="OneArgumentFunctions\ArcsinTest.cs" />
+    <Compile Include="OneArgumentFunctions\ArctanTest.cs" />
     <Compile Include="OneArgumentFunctions\ArcctanTest.cs" />
     <Compile Include="OneArgumentFunctions\AbsTest.cs" />
     <Compile Include="OneArgumentFunctions\ExtractorTest.cs" />
     <Compile Include="OneArgumentFunctions\CosTest.cs" />
     <Compile Include="OneArgumentFunctions\SinTest.cs" />
+    <Compile Include="OneArgumentFunctions\TanTest.cs" />
+    <Compile Include="ReverseTest.cs" />
     <Compile Include="TwoArgumentFunctions\Subtrackter.cs" />
     <Compile Include="TwoArgumentFunctions\DivisionerTest.cs" />
     <Compile Include="TwoArgumentFunctions\MultiplicatorTest.cs" />
     <Compile Include="TwoArgumentFunctions\AdditionerTest.cs" />
     <Compile Include="OneArgumentFunctions\ArccosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OneArgumentFunctions\TwoTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calc\calc.csproj">
