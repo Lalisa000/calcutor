@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace calc
 {
-    class Degree10
+    public class Degree10 : IOneArgumentCalculator
     {
+        public double calculate(double firstNumber)
+        {
+            return Math.Pow(10, firstNumber);
+        }
     }
 }
+

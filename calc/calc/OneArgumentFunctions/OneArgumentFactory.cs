@@ -47,6 +47,10 @@ namespace calc
                     return new Two();
                 case "logtwo":
                     return new LogTwo();
+                case "Degree10":
+                    return new Degree10();
+                case "Negative":
+                    return new Negative();
                 default:
                     throw new Exception("Неизвестная операция");
             }
