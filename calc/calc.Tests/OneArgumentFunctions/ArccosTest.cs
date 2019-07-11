@@ -16,5 +16,12 @@ namespace calc.Tests
             double actual = calculator.calculate(value);
             Assert.AreEqual(answer, actual, 0.001);
         }
+
+        [Test]
+        public void NegativeArccosTest()
+        {
+            var calculator = new Arccos();
+            Assert.Throws<Exception>(() => calculator.calculate(2));
+        }
     }
 }
