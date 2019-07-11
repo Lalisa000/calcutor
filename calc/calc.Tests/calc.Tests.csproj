@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TwoArgumentFunctions\ArithmeticMeanTest.cs" />
     <Compile Include="OneArgumentFunctions\NaturalLogTest.cs" />
     <Compile Include="OneArgumentFunctions\NegativeTest.cs" />
     <Compile Include="OneArgumentFunctions\LogTwoNest.cs" />
@@ -63,7 +64,10 @@
     <Compile Include="OneArgumentFunctions\CosTest.cs" />
     <Compile Include="OneArgumentFunctions\SinTest.cs" />
     <Compile Include="OneArgumentFunctions\TanTest.cs" />
-    <Compile Include="ReverseTest.cs" />
+    <Compile Include="OneArgumentFunctions\ReverseTest.cs" />
+    <Compile Include="TwoArgumentFunctions\DegreeTest.cs" />
+    <Compile Include="TwoArgumentFunctions\GeometricMeanTest.cs" />
+    <Compile Include="TwoArgumentFunctions\LogXYTest.cs" />
     <Compile Include="TwoArgumentFunctions\Subtrackter.cs" />
     <Compile Include="TwoArgumentFunctions\DivisionerTest.cs" />
     <Compile Include="TwoArgumentFunctions\MultiplicatorTest.cs" />
