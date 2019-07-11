@@ -22,10 +22,10 @@ namespace calc
                     return new Multiplicator();
                 case "division":
                     return new Divisioner();
-                //case "extraction":
-                //    return new Extractor();
-                //case "exponentiating":
-                //    return new Exponentor(); 
+                case "geomMean":
+                    return new GeometricMean();
+                case "arithmMean":
+                    return new ArithmeticMean();
                 default:
                     throw new Exception("Неизвестная операция");
             }

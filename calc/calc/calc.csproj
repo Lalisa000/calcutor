@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArithmeticMean.cs" />
+    <Compile Include="GeometricMean.cs" />
     <Compile Include="OneArgumentFunctions\LogTwo.cs" />
     <Compile Include="OneArgumentFunctions\Exp.cs" />
     <Compile Include="OneArgumentFunctions\NaturalLog.cs" />

@@ -54,6 +54,8 @@
             this.exp = new System.Windows.Forms.Button();
             this.two = new System.Windows.Forms.Button();
             this.logtwo = new System.Windows.Forms.Button();
+            this.arithmMean = new System.Windows.Forms.Button();
+            this.geomMean = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -304,11 +306,33 @@
             this.logtwo.UseVisualStyleBackColor = true;
             this.logtwo.Click += new System.EventHandler(this.CalculateOne);
             // 
+            // arithmMean
+            // 
+            this.arithmMean.Location = new System.Drawing.Point(12, 203);
+            this.arithmMean.Name = "arithmMean";
+            this.arithmMean.Size = new System.Drawing.Size(80, 25);
+            this.arithmMean.TabIndex = 27;
+            this.arithmMean.Text = "arithmMean";
+            this.arithmMean.UseVisualStyleBackColor = true;
+            this.arithmMean.Click += new System.EventHandler(this.Calculate);
+            // 
+            // geomMean
+            // 
+            this.geomMean.Location = new System.Drawing.Point(12, 234);
+            this.geomMean.Name = "geomMean";
+            this.geomMean.Size = new System.Drawing.Size(80, 25);
+            this.geomMean.TabIndex = 28;
+            this.geomMean.Text = "geomMean";
+            this.geomMean.UseVisualStyleBackColor = true;
+            this.geomMean.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 345);
+            this.Controls.Add(this.geomMean);
+            this.Controls.Add(this.arithmMean);
             this.Controls.Add(this.logtwo);
             this.Controls.Add(this.two);
             this.Controls.Add(this.exp);
@@ -370,6 +394,8 @@
         private System.Windows.Forms.Button exp;
         private System.Windows.Forms.Button two;
         private System.Windows.Forms.Button logtwo;
+        private System.Windows.Forms.Button arithmMean;
+        private System.Windows.Forms.Button geomMean;
     }
 }
 
