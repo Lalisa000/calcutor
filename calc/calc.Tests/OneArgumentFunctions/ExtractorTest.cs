@@ -1,4 +1,6 @@
-﻿namespace calc.Tests
+﻿using System;
+
+namespace calc.Tests
 {
     using NUnit.Framework;
 
@@ -13,6 +15,13 @@
             var calculator = new Extractor();
             double actual = calculator.calculate(value);
             Assert.AreEqual(answer, actual, 0.00);
+        }
+
+        [Test]
+        public void NegativeArcsinTest()
+        {
+            var calculator = new Arcsin();
+            Assert.Throws<Exception>(() => calculator.calculate(-5));
         }
     }
 }

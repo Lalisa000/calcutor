@@ -6,7 +6,11 @@ namespace calc
     {
         public double calculate(double firstNumber)
         {
-            return Math.Sqrt(firstNumber);
+            if (firstNumber < 0)
+            {
+                throw new Exception("Х не должен быть отрицательным");
+            }
+          return Math.Sqrt(firstNumber);
         }
     }
 }
