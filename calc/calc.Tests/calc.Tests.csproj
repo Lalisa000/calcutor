@@ -75,6 +75,7 @@
     <Compile Include="OneArgumentFunctions\ArccosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="OneArgumentFunctions\TwoTest.cs" />
+    <Compile Include="TwoArgumentsFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\calc\calc.csproj">
