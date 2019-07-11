@@ -18,9 +18,9 @@ namespace calc.Tests
         }
 
         [Test]
-        public void NegativeArcsinTest()
+        public void NegativeExtractorTest()
         {
-            var calculator = new Arcsin();
+            var calculator = new Extractor();
             Assert.Throws<Exception>(() => calculator.calculate(-5));
         }
     }
