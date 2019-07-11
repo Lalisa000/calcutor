@@ -56,6 +56,10 @@
             this.logtwo = new System.Windows.Forms.Button();
             this.arithmMean = new System.Windows.Forms.Button();
             this.geomMean = new System.Windows.Forms.Button();
+            this.Degree = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
+            this.Degree10 = new System.Windows.Forms.Button();
+            this.LogXY = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // summary
@@ -326,11 +330,55 @@
             this.geomMean.UseVisualStyleBackColor = true;
             this.geomMean.Click += new System.EventHandler(this.Calculate);
             // 
+            // Degree
+            // 
+            this.Degree.Location = new System.Drawing.Point(285, 189);
+            this.Degree.Name = "Degree";
+            this.Degree.Size = new System.Drawing.Size(44, 26);
+            this.Degree.TabIndex = 29;
+            this.Degree.Text = "x^y";
+            this.Degree.UseVisualStyleBackColor = true;
+            this.Degree.Click += new System.EventHandler(this.Calculate);
+            // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(336, 189);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(47, 26);
+            this.Negative.TabIndex = 30;
+            this.Negative.Text = "-x";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // Degree10
+            // 
+            this.Degree10.Location = new System.Drawing.Point(283, 221);
+            this.Degree10.Name = "Degree10";
+            this.Degree10.Size = new System.Drawing.Size(47, 26);
+            this.Degree10.TabIndex = 31;
+            this.Degree10.Text = "10^x";
+            this.Degree10.UseVisualStyleBackColor = true;
+            this.Degree10.Click += new System.EventHandler(this.CalculateOne);
+            // 
+            // LogXY
+            // 
+            this.LogXY.Location = new System.Drawing.Point(333, 221);
+            this.LogXY.Name = "LogXY";
+            this.LogXY.Size = new System.Drawing.Size(47, 26);
+            this.LogXY.TabIndex = 32;
+            this.LogXY.Text = "logx(y)";
+            this.LogXY.UseVisualStyleBackColor = true;
+            this.LogXY.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(387, 345);
+            this.Controls.Add(this.LogXY);
+            this.Controls.Add(this.Degree10);
+            this.Controls.Add(this.Negative);
+            this.Controls.Add(this.Degree);
             this.Controls.Add(this.geomMean);
             this.Controls.Add(this.arithmMean);
             this.Controls.Add(this.logtwo);
@@ -396,6 +444,10 @@
         private System.Windows.Forms.Button logtwo;
         private System.Windows.Forms.Button arithmMean;
         private System.Windows.Forms.Button geomMean;
+        private System.Windows.Forms.Button Degree;
+        private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button Degree10;
+        private System.Windows.Forms.Button LogXY;
     }
 }
 

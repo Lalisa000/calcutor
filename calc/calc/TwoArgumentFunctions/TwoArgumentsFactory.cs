@@ -26,6 +26,10 @@ namespace calc
                     return new GeometricMean();
                 case "arithmMean":
                     return new ArithmeticMean();
+                case "Degree":
+                    return new Degree();
+                case "LogXY":
+                    return new LogXY();
                 default:
                     throw new Exception("Неизвестная операция");
             }
