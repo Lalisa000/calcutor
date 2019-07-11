@@ -18,10 +18,10 @@ namespace calc.Tests.TwoArgumentFunctions
         }
 
         [Test]
-        public void DivisionByZeroTest()
+        public void NegativeGeometricMeanTest()
         {
-            var calculator = new Divisioner();
-            Assert.Throws<Exception>(() => calculator.calculate(1, 0));
+            var calculator = new GeometricMean();
+            Assert.Throws<Exception>(() => calculator.calculate(-1, 1));
         }
     }
 }
