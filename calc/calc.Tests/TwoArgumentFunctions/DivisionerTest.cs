@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calc.Tests
 {
@@ -17,6 +13,13 @@ namespace calc.Tests
             var calculator = new Divisioner();
             double actual = calculator.calculate(6, 3);
             Assert.AreEqual(2, actual, 0.00);
+        }
+
+        [Test]
+        public void DivisionByZeroTest()
+        {
+            var calculator = new Divisioner();
+            Assert.Throws<Exception>(()=> calculator.calculate(1,0));
         }
     }
 }

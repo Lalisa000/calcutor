@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calc
 {
-    using System.Runtime.Remoting.Messaging;
-
     public static class OneArgumentFactory
     {
         public static IOneArgumentCalculator CreateCalculator(String name)

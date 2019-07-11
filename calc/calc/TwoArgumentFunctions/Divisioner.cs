@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calc
 {
@@ -10,6 +6,10 @@ namespace calc
     {
         public double calculate(double firstNumber, double secondNumber)
         {
+            if (secondNumber == 0)
+            {
+                throw new Exception("Деление на ноль запрещено!");
+            }
             return firstNumber / secondNumber;
         }
     }

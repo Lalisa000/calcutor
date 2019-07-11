@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calc.Tests.TwoArgumentFunctions
 {
@@ -19,6 +15,13 @@ namespace calc.Tests.TwoArgumentFunctions
             var calculator = new GeometricMean();
             double actual = calculator.calculate(value, value2);
             Assert.AreEqual(answer, actual, 0.001);
+        }
+
+        [Test]
+        public void DivisionByZeroTest()
+        {
+            var calculator = new Divisioner();
+            Assert.Throws<Exception>(() => calculator.calculate(1, 0));
         }
     }
 }
