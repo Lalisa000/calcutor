@@ -64,46 +64,51 @@
             // 
             // summary
             // 
+            this.summary.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.summary.Location = new System.Drawing.Point(12, 89);
             this.summary.Name = "summary";
             this.summary.Size = new System.Drawing.Size(37, 28);
             this.summary.TabIndex = 0;
             this.summary.Text = "+";
-            this.summary.UseVisualStyleBackColor = true;
+            this.summary.UseVisualStyleBackColor = false;
             this.summary.Click += new System.EventHandler(this.Calculate);
             // 
             // subtraction
             // 
+            this.subtraction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.subtraction.Location = new System.Drawing.Point(55, 89);
             this.subtraction.Name = "subtraction";
             this.subtraction.Size = new System.Drawing.Size(37, 28);
             this.subtraction.TabIndex = 1;
             this.subtraction.Text = "-";
-            this.subtraction.UseVisualStyleBackColor = true;
+            this.subtraction.UseVisualStyleBackColor = false;
             this.subtraction.Click += new System.EventHandler(this.Calculate);
             // 
             // multiplication
             // 
+            this.multiplication.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.multiplication.Location = new System.Drawing.Point(12, 123);
             this.multiplication.Name = "multiplication";
             this.multiplication.Size = new System.Drawing.Size(37, 28);
             this.multiplication.TabIndex = 2;
             this.multiplication.Text = "*";
-            this.multiplication.UseVisualStyleBackColor = true;
+            this.multiplication.UseVisualStyleBackColor = false;
             this.multiplication.Click += new System.EventHandler(this.Calculate);
             // 
             // division
             // 
+            this.division.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.division.Location = new System.Drawing.Point(55, 123);
             this.division.Name = "division";
             this.division.Size = new System.Drawing.Size(37, 28);
             this.division.TabIndex = 3;
             this.division.Text = "/";
-            this.division.UseVisualStyleBackColor = true;
+            this.division.UseVisualStyleBackColor = false;
             this.division.Click += new System.EventHandler(this.Calculate);
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
             this.textBox1.Location = new System.Drawing.Point(12, 50);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(92, 20);
@@ -112,6 +117,7 @@
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Info;
             this.textBox2.Location = new System.Drawing.Point(135, 50);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(96, 20);
@@ -144,6 +150,7 @@
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Info;
             this.textBox3.Location = new System.Drawing.Point(264, 50);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
@@ -152,229 +159,254 @@
             // 
             // extraction
             // 
+            this.extraction.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.extraction.Location = new System.Drawing.Point(12, 157);
             this.extraction.Name = "extraction";
             this.extraction.Size = new System.Drawing.Size(37, 28);
             this.extraction.TabIndex = 11;
             this.extraction.Text = "√";
-            this.extraction.UseVisualStyleBackColor = true;
+            this.extraction.UseVisualStyleBackColor = false;
             this.extraction.Click += new System.EventHandler(this.CalculateOne);
             // 
             // exponentiating
             // 
+            this.exponentiating.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.exponentiating.ForeColor = System.Drawing.Color.Black;
             this.exponentiating.Location = new System.Drawing.Point(55, 157);
             this.exponentiating.Name = "exponentiating";
             this.exponentiating.Size = new System.Drawing.Size(37, 28);
             this.exponentiating.TabIndex = 12;
             this.exponentiating.Text = "^";
-            this.exponentiating.UseVisualStyleBackColor = true;
+            this.exponentiating.UseVisualStyleBackColor = false;
             this.exponentiating.Click += new System.EventHandler(this.CalculateOne);
             // 
             // cos
             // 
+            this.cos.BackColor = System.Drawing.Color.LightBlue;
             this.cos.Location = new System.Drawing.Point(122, 89);
             this.cos.Name = "cos";
             this.cos.Size = new System.Drawing.Size(44, 26);
             this.cos.TabIndex = 13;
             this.cos.Text = "cos";
-            this.cos.UseVisualStyleBackColor = true;
+            this.cos.UseVisualStyleBackColor = false;
             this.cos.Click += new System.EventHandler(this.CalculateOne);
             // 
             // sin
             // 
+            this.sin.BackColor = System.Drawing.Color.LightBlue;
             this.sin.Location = new System.Drawing.Point(172, 89);
             this.sin.Name = "sin";
             this.sin.Size = new System.Drawing.Size(44, 26);
             this.sin.TabIndex = 14;
             this.sin.Text = "sin";
-            this.sin.UseVisualStyleBackColor = true;
+            this.sin.UseVisualStyleBackColor = false;
             this.sin.Click += new System.EventHandler(this.CalculateOne);
             // 
             // tan
             // 
+            this.tan.BackColor = System.Drawing.Color.LightBlue;
             this.tan.Location = new System.Drawing.Point(122, 121);
             this.tan.Name = "tan";
             this.tan.Size = new System.Drawing.Size(44, 26);
             this.tan.TabIndex = 15;
             this.tan.Text = "tg";
-            this.tan.UseVisualStyleBackColor = true;
+            this.tan.UseVisualStyleBackColor = false;
             this.tan.Click += new System.EventHandler(this.CalculateOne);
             // 
             // ctan
             // 
+            this.ctan.BackColor = System.Drawing.Color.LightBlue;
             this.ctan.Location = new System.Drawing.Point(172, 121);
             this.ctan.Name = "ctan";
             this.ctan.Size = new System.Drawing.Size(44, 26);
             this.ctan.TabIndex = 16;
             this.ctan.Text = "ctg";
-            this.ctan.UseVisualStyleBackColor = true;
+            this.ctan.UseVisualStyleBackColor = false;
             this.ctan.Click += new System.EventHandler(this.CalculateOne);
             // 
             // asin
             // 
+            this.asin.BackColor = System.Drawing.Color.LightBlue;
             this.asin.Location = new System.Drawing.Point(172, 153);
             this.asin.Name = "asin";
             this.asin.Size = new System.Drawing.Size(44, 26);
             this.asin.TabIndex = 17;
             this.asin.Text = "asin";
-            this.asin.UseVisualStyleBackColor = true;
+            this.asin.UseVisualStyleBackColor = false;
             this.asin.Click += new System.EventHandler(this.CalculateOne);
             // 
             // acos
             // 
+            this.acos.BackColor = System.Drawing.Color.LightBlue;
             this.acos.Location = new System.Drawing.Point(122, 153);
             this.acos.Name = "acos";
             this.acos.Size = new System.Drawing.Size(44, 26);
             this.acos.TabIndex = 18;
             this.acos.Text = "acos";
-            this.acos.UseVisualStyleBackColor = true;
+            this.acos.UseVisualStyleBackColor = false;
             this.acos.Click += new System.EventHandler(this.CalculateOne);
             // 
             // arctg
             // 
+            this.arctg.BackColor = System.Drawing.Color.LightBlue;
             this.arctg.Location = new System.Drawing.Point(222, 91);
             this.arctg.Name = "arctg";
             this.arctg.Size = new System.Drawing.Size(44, 26);
             this.arctg.TabIndex = 19;
             this.arctg.Text = "arctg";
-            this.arctg.UseVisualStyleBackColor = true;
+            this.arctg.UseVisualStyleBackColor = false;
             this.arctg.Click += new System.EventHandler(this.CalculateOne);
             // 
             // arcctg
             // 
+            this.arcctg.BackColor = System.Drawing.Color.LightBlue;
             this.arcctg.Location = new System.Drawing.Point(222, 125);
             this.arcctg.Name = "arcctg";
             this.arcctg.Size = new System.Drawing.Size(44, 26);
             this.arcctg.TabIndex = 20;
             this.arcctg.Text = "arcctg";
-            this.arcctg.UseVisualStyleBackColor = true;
+            this.arcctg.UseVisualStyleBackColor = false;
             this.arcctg.Click += new System.EventHandler(this.CalculateOne);
             // 
             // abs
             // 
+            this.abs.BackColor = System.Drawing.Color.LightGreen;
             this.abs.Location = new System.Drawing.Point(336, 91);
             this.abs.Name = "abs";
             this.abs.Size = new System.Drawing.Size(44, 26);
             this.abs.TabIndex = 21;
             this.abs.Text = "|  |";
-            this.abs.UseVisualStyleBackColor = true;
+            this.abs.UseVisualStyleBackColor = false;
             this.abs.Click += new System.EventHandler(this.CalculateOne);
             // 
             // reverse
             // 
+            this.reverse.BackColor = System.Drawing.Color.LightGreen;
             this.reverse.Location = new System.Drawing.Point(286, 91);
             this.reverse.Name = "reverse";
             this.reverse.Size = new System.Drawing.Size(44, 26);
             this.reverse.TabIndex = 22;
             this.reverse.Text = "1/x";
-            this.reverse.UseVisualStyleBackColor = true;
+            this.reverse.UseVisualStyleBackColor = false;
             this.reverse.Click += new System.EventHandler(this.CalculateOne);
             // 
             // ln
             // 
+            this.ln.BackColor = System.Drawing.Color.LightGreen;
             this.ln.Location = new System.Drawing.Point(286, 123);
             this.ln.Name = "ln";
             this.ln.Size = new System.Drawing.Size(44, 26);
             this.ln.TabIndex = 23;
             this.ln.Text = "ln(x)";
-            this.ln.UseVisualStyleBackColor = true;
+            this.ln.UseVisualStyleBackColor = false;
             this.ln.Click += new System.EventHandler(this.CalculateOne);
             // 
             // exp
             // 
+            this.exp.BackColor = System.Drawing.Color.LightGreen;
             this.exp.Location = new System.Drawing.Point(336, 125);
             this.exp.Name = "exp";
             this.exp.Size = new System.Drawing.Size(44, 26);
             this.exp.TabIndex = 24;
             this.exp.Text = "e^x";
-            this.exp.UseVisualStyleBackColor = true;
+            this.exp.UseVisualStyleBackColor = false;
             this.exp.Click += new System.EventHandler(this.CalculateOne);
             // 
             // two
             // 
+            this.two.BackColor = System.Drawing.Color.LightGreen;
             this.two.Location = new System.Drawing.Point(285, 157);
             this.two.Name = "two";
             this.two.Size = new System.Drawing.Size(44, 26);
             this.two.TabIndex = 25;
             this.two.Text = "2^x";
-            this.two.UseVisualStyleBackColor = true;
+            this.two.UseVisualStyleBackColor = false;
             this.two.Click += new System.EventHandler(this.CalculateOne);
             // 
             // logtwo
             // 
+            this.logtwo.BackColor = System.Drawing.Color.LightGreen;
             this.logtwo.Location = new System.Drawing.Point(336, 159);
             this.logtwo.Name = "logtwo";
             this.logtwo.Size = new System.Drawing.Size(47, 26);
             this.logtwo.TabIndex = 26;
             this.logtwo.Text = "log2(x)";
-            this.logtwo.UseVisualStyleBackColor = true;
+            this.logtwo.UseVisualStyleBackColor = false;
             this.logtwo.Click += new System.EventHandler(this.CalculateOne);
             // 
             // arithmMean
             // 
+            this.arithmMean.BackColor = System.Drawing.Color.OrangeRed;
+            this.arithmMean.ForeColor = System.Drawing.Color.Black;
             this.arithmMean.Location = new System.Drawing.Point(12, 203);
             this.arithmMean.Name = "arithmMean";
             this.arithmMean.Size = new System.Drawing.Size(80, 25);
             this.arithmMean.TabIndex = 27;
             this.arithmMean.Text = "arithmMean";
-            this.arithmMean.UseVisualStyleBackColor = true;
+            this.arithmMean.UseVisualStyleBackColor = false;
             this.arithmMean.Click += new System.EventHandler(this.Calculate);
             // 
             // geomMean
             // 
+            this.geomMean.BackColor = System.Drawing.Color.OrangeRed;
             this.geomMean.Location = new System.Drawing.Point(12, 234);
             this.geomMean.Name = "geomMean";
             this.geomMean.Size = new System.Drawing.Size(80, 25);
             this.geomMean.TabIndex = 28;
             this.geomMean.Text = "geomMean";
-            this.geomMean.UseVisualStyleBackColor = true;
+            this.geomMean.UseVisualStyleBackColor = false;
             this.geomMean.Click += new System.EventHandler(this.Calculate);
             // 
             // Degree
             // 
+            this.Degree.BackColor = System.Drawing.Color.LightGreen;
             this.Degree.Location = new System.Drawing.Point(285, 189);
             this.Degree.Name = "Degree";
             this.Degree.Size = new System.Drawing.Size(44, 26);
             this.Degree.TabIndex = 29;
             this.Degree.Text = "x^y";
-            this.Degree.UseVisualStyleBackColor = true;
+            this.Degree.UseVisualStyleBackColor = false;
             this.Degree.Click += new System.EventHandler(this.Calculate);
             // 
             // Negative
             // 
+            this.Negative.BackColor = System.Drawing.Color.LightGreen;
             this.Negative.Location = new System.Drawing.Point(336, 189);
             this.Negative.Name = "Negative";
             this.Negative.Size = new System.Drawing.Size(47, 26);
             this.Negative.TabIndex = 30;
             this.Negative.Text = "-x";
-            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.UseVisualStyleBackColor = false;
             this.Negative.Click += new System.EventHandler(this.CalculateOne);
             // 
             // Degree10
             // 
+            this.Degree10.BackColor = System.Drawing.Color.LightGreen;
             this.Degree10.Location = new System.Drawing.Point(283, 221);
             this.Degree10.Name = "Degree10";
             this.Degree10.Size = new System.Drawing.Size(47, 26);
             this.Degree10.TabIndex = 31;
             this.Degree10.Text = "10^x";
-            this.Degree10.UseVisualStyleBackColor = true;
+            this.Degree10.UseVisualStyleBackColor = false;
             this.Degree10.Click += new System.EventHandler(this.CalculateOne);
             // 
             // LogXY
             // 
+            this.LogXY.BackColor = System.Drawing.Color.LightGreen;
             this.LogXY.Location = new System.Drawing.Point(333, 221);
             this.LogXY.Name = "LogXY";
             this.LogXY.Size = new System.Drawing.Size(47, 26);
             this.LogXY.TabIndex = 32;
             this.LogXY.Text = "logx(y)";
-            this.LogXY.UseVisualStyleBackColor = true;
+            this.LogXY.UseVisualStyleBackColor = false;
             this.LogXY.Click += new System.EventHandler(this.Calculate);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(387, 345);
+            this.BackColor = System.Drawing.Color.Thistle;
+            this.ClientSize = new System.Drawing.Size(387, 285);
             this.Controls.Add(this.LogXY);
             this.Controls.Add(this.Degree10);
             this.Controls.Add(this.Negative);
@@ -407,6 +439,7 @@
             this.Controls.Add(this.multiplication);
             this.Controls.Add(this.subtraction);
             this.Controls.Add(this.summary);
+            this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
