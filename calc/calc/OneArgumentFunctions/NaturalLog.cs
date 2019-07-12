@@ -13,7 +13,7 @@ namespace calc
         {
             if (firstNumber <= 0)
             {
-                throw new Exception("Х должен быть положитедьным");
+                throw new Exception("Х должен быть положительным");
             }
             return Math.Log(firstNumber, Math.E);
         }

@@ -1,4 +1,6 @@
-﻿namespace calc.Tests
+﻿using System;
+
+namespace calc.Tests
 {
     using NUnit.Framework;
 
@@ -13,6 +15,13 @@
             var calculator = new LogTwo();
             double actual = calculator.calculate(value);
             Assert.AreEqual(answer, actual, 0.001);
+        }
+
+        [Test]
+        public void NegativeLogTwoTest()
+        {
+            var calculator = new LogTwo();
+            Assert.Throws<Exception>(() => calculator.calculate(0));
         }
     }
 }

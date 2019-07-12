@@ -11,6 +11,10 @@ namespace calc
         /// <returns> вовращение результата операции </returns>
         public double calculate(double firstNumber)
         {
+            if (firstNumber < 1)
+            {
+                throw new Exception("Х должен быть больше единицы!");
+            }
             return Math.Log(firstNumber, 2);
         }
     }
