@@ -13,7 +13,7 @@ namespace calc
         {
             switch (name)
             {
-               
+
                 case "extraction":
                     return new Extractor();
                 case "exponentiating":

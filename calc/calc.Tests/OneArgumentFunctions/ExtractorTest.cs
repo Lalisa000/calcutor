@@ -5,7 +5,7 @@ namespace calc.Tests
     using NUnit.Framework;
 
     [TestFixture]
-        public class ExtractorTest
+    public class ExtractorTest
     {
         [TestCase(4, 2)]
         [TestCase(9, 3)]

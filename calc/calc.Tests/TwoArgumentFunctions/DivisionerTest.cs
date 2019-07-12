@@ -19,7 +19,7 @@ namespace calc.Tests
         public void DivisionByZeroTest()
         {
             var calculator = new Divisioner();
-            Assert.Throws<Exception>(()=> calculator.calculate(1,0));
+            Assert.Throws<Exception>(() => calculator.calculate(1, 0));
         }
     }
 }

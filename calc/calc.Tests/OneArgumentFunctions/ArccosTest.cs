@@ -9,7 +9,7 @@ namespace calc.Tests
     {
         [TestCase(1, 0.000)]
         [TestCase(-1, 3.141)]
-        [TestCase(0, Math.PI/2)]
+        [TestCase(0, Math.PI / 2)]
         public void CalculationTest(double value, double answer)
         {
             var calculator = new Arccos();

@@ -15,7 +15,7 @@ namespace calc
             {
                 throw new Exception("Х не должен быть отрицательным");
             }
-          return Math.Sqrt(firstNumber);
+            return Math.Sqrt(firstNumber);
         }
     }
 }

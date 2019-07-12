@@ -12,7 +12,7 @@ namespace calc
         /// <returns> возвращение результата операции </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
-            if (firstNumber <=0 && firstNumber == 1)
+            if (firstNumber <= 0 && firstNumber == 1)
             {
                 throw new Exception("Х должен быть больше 0 и не равен 1!");
             }

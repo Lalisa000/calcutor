@@ -11,7 +11,7 @@ namespace calc
         /// <returns> возвращение значения котангенса </returns>
         public double calculate(double firstNumber)
         {
-            return 1/Math.Tan(firstNumber);
+            return 1 / Math.Tan(firstNumber);
         }
     }
 }

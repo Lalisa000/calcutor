@@ -16,7 +16,7 @@ namespace calc
             {
                 throw new Exception("Число под корнем должно быть положительным!");
             }
-            return Math.Sqrt(firstNumber*secondNumber);
+            return Math.Sqrt(firstNumber * secondNumber);
         }
     }
 }

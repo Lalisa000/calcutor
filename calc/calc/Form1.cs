@@ -22,7 +22,7 @@ namespace calc
                 result = calculator.calculate(firstNumber, secondNumber);
                 this.textBox3.Text = result.ToString();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -38,7 +38,7 @@ namespace calc
                 result = calculator.calculate(firstNumber);
                 this.textBox3.Text = result.ToString();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }

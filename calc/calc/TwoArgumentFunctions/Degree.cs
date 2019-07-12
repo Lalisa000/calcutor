@@ -12,7 +12,7 @@ namespace calc
         /// <returns> вовращение результата операции </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
-            return Math.Pow(firstNumber,secondNumber);
+            return Math.Pow(firstNumber, secondNumber);
         }
     }
 }
