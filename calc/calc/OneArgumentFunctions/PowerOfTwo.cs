@@ -2,16 +2,16 @@
 
 namespace calc
 {
-    public class Tan : IOneArgumentCalculator
+    public class PowerOfTwo : IOneArgumentCalculator
     {
         /// <summary>
-        /// a function to calculate the tangent
+        /// function to calculate the value of two to any degree
         /// </summary>
-        /// <param name="firstNumber"> tangent argument value </param>
+        /// < / / / <param name="first Number"> power value </param>
         /// <returns> return the result of the operation </returns>
         public double calculate(double firstNumber)
         {
-            return Math.Tan(firstNumber);
+            return Math.Pow(2, firstNumber);
         }
     }
 }

@@ -3,10 +3,10 @@
     public class Negative : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления противоположного значения числа
+        /// function to calculate the opposite value of a number
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение числа с противоположным знаком </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return a number with the opposite sign </returns>
         public double calculate(double firstNumber)
         {
             return (-firstNumber);

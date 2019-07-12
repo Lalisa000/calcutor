@@ -5,10 +5,10 @@ namespace calc
     public class Reverse : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления обратного значения числа
+        /// function to calculate the inverse of a number
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение обратного значения аргумента </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return the return value of the </returns>argument
         public double calculate(double firstNumber)
         {
             if (firstNumber == 0)

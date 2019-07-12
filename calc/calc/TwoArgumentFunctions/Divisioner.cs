@@ -5,11 +5,11 @@ namespace calc
     public class Divisioner : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления частного двух чисел
+        /// function to calculate the quotient of two numbers
         /// </summary>
-        /// <param name="firstNumber"> делимое </param>
-        /// <param name="secondNumber"> делитель </param>
-        /// <returns> вовращение значения частного </returns>
+        /// <param name="firstNumber"> divisible </param>
+        /// <param name="secondNumber"> divider </param>
+        /// < /// <returns> return private value </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             if (secondNumber == 0)

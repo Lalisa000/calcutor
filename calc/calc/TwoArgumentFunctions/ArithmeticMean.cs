@@ -3,11 +3,11 @@
     public class ArithmeticMean : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления арифметического корня
+        /// function for calculating the arithmetic root
         /// </summary>
-        /// <param name="firstNumber"> первое слагаемое </param>
-        /// <param name="secondNumber">  второе слагаемое </param>
-        /// <returns> вовращение значения операции </returns>
+        /// <param name="firstNumber"> first term </param>
+        /// <param name="secondNumber"> second term </param>
+        /// < / / / <returns> return operation value </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             return (firstNumber + secondNumber) / 2;

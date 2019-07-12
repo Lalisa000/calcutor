@@ -5,10 +5,10 @@ namespace calc
     public class Extractor : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления квадратного корня
+        /// function for calculating square root
         /// </summary>
-        /// <param name="firstNumber"> подкоренное выражение </param>
-        /// <returns> возвращение результата </returns>
+        /// <param name="firstNumber"> subquery expression </param>
+        /// <returns> return result </returns>
         public double calculate(double firstNumber)
         {
             if (firstNumber < 0)

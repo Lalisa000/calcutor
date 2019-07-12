@@ -5,10 +5,10 @@ namespace calc
     public static class TwoArgumentsFactory
     {
         /// <summary>
-        /// фабрика для функций с двумя аргументами: сложение, вычитание, деление, умножение и т.д.
+        /// factory for functions with two arguments: addition, subtraction, division, multiplication, etc.
         /// </summary>
-        /// <param name="name"> выбор кнопки </param>
-        /// <returns> вовращение завершенных вычислений </returns>
+        /// <param name="name"> select button </param>
+        /// < /// <returns> return completed calculations </returns>
         public static ITwoArgumentsCalculator CreateCalculator(String name)
         {
             switch (name)

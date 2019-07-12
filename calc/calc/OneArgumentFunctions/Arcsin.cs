@@ -5,10 +5,11 @@ namespace calc
     public class Arcsin : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления арксинуса
+        /// the function for calculating the arc sine
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение значения арксинуса </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return the value of the arcsine </returns>
+
         public double calculate(double firstNumber)
         {
             if (firstNumber > 1 || firstNumber < -1)

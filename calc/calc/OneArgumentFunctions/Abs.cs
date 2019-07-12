@@ -5,10 +5,10 @@ namespace calc
     public class Abs : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления модуля числа
+        /// module function
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение модуля числа </returns>
+        /// <param name="firstNumber"> argument </param>
+        /// <returns> number module return </returns>
         public double calculate(double firstNumber)
         {
             return Math.Abs(firstNumber);

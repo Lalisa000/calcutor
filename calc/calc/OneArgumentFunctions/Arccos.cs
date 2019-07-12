@@ -5,10 +5,10 @@ namespace calc
     public class Arccos : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления арккосинуса числа
+        /// function to calculate the arccosine of a number
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращения значения арккосинуса </returns>
+        /// <<param name="first Number"> function argument </param>
+        /// <returns> returns the value of the arccos </returns>
         public double calculate(double firstNumber)
         {
             if (firstNumber > 1 || firstNumber < -1)

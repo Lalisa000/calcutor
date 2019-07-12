@@ -5,10 +5,10 @@ namespace calc
     public class Sin : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления синуса
+        /// a function to calculate the sine
         /// </summary>
-        /// <param name="firstNumber"> значение аргумента синуса </param>
-        /// <returns> возвращение результата вычислений </returns>
+        /// < /// <param name="first Number"> sine argument value </param>
+        /// <returns> return calculation result </returns>
         public double calculate(double firstNumber)
         {
             return Math.Sin(firstNumber);

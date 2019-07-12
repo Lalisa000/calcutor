@@ -3,11 +3,11 @@
     public class Multiplicator : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция умножения двух чисел 
+        /// a function of multiplying two numbers 
         /// </summary>
-        /// <param name="firstNumber"> первый множитель </param>
-        /// <param name="secondNumber"> второй множитель </param>
-        /// <returns> возвращение результата произведения двух чисел </returns>
+        /// <param name="firstNumber"> first multiplier </param>
+        /// <param name="secondNumber"> second multiplier </param>
+        /// <returns> return the result of the product of two numbers </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             return firstNumber * secondNumber;

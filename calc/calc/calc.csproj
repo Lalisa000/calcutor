@@ -65,7 +65,7 @@
     <Compile Include="OneArgumentFunctions\Sin.cs" />
     <Compile Include="OneArgumentFunctions\Tan.cs" />
     <Compile Include="OneArgumentFunctions\Reverse.cs" />
-    <Compile Include="OneArgumentFunctions\Two.cs" />
+    <Compile Include="OneArgumentFunctions\PowerOfTwo.cs" />
     <Compile Include="TwoArgumentFunctions\Additioner.cs" />
     <Compile Include="TwoArgumentFunctions\Divisioner.cs" />
     <Compile Include="OneArgumentFunctions\Exponentor.cs" />

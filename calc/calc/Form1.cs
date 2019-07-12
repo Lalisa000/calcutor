@@ -20,7 +20,7 @@ namespace calc
                 double result;
                 ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator(((Button)sender).Name);
                 result = calculator.calculate(firstNumber, secondNumber);
-                this.textBox3.Text = result.ToString();
+                textBox3.Text = result.ToString();
             }
             catch (Exception ex)
             {
@@ -36,7 +36,7 @@ namespace calc
                 double result;
                 IOneArgumentCalculator calculator = OneArgumentFactory.CreateCalculator(((Button)sender).Name);
                 result = calculator.calculate(firstNumber);
-                this.textBox3.Text = result.ToString();
+                textBox3.Text = result.ToString();
             }
             catch (Exception ex)
             {

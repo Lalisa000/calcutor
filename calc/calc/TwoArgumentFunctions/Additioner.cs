@@ -3,11 +3,11 @@
     public class Additioner : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления суммы
+        /// function to calculate the sum
         /// </summary>
-        /// <param name="firstNumber"> первое слагаемое </param>
-        /// <param name="secondNumber"> второе слагаемое </param>
-        /// <returns> вовращение результата суммы </returns>
+        /// <param name="firstNumber"> first term </param>
+        /// <param name="secondNumber"> second term </param>
+        /// < /// <returns> return the result </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             return firstNumber + secondNumber;

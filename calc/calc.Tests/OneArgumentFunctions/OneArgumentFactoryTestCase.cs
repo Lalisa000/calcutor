@@ -23,7 +23,7 @@ namespace calc.Tests
         [TestCase("reverse", typeof(Reverse))]
         [TestCase("sin", typeof(Sin))]
         [TestCase("tan", typeof(Tan))]
-        [TestCase("two", typeof(Two))]
+        [TestCase("two", typeof(PowerOfTwo))]
         public void CalculateTest(string name, Type type)
         {
             var calculator = OneArgumentFactory.CreateCalculator(name);

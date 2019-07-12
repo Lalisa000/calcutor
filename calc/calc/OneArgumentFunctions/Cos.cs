@@ -5,10 +5,10 @@ namespace calc
     public class Cos : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления значения косинуса
+        /// function to calculate the cosine value
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение значения косинуса </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return the cosine value </returns>
         public double calculate(double firstNumber)
         {
             return Math.Cos(firstNumber);

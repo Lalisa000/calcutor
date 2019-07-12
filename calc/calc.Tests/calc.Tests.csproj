@@ -74,7 +74,7 @@
     <Compile Include="TwoArgumentFunctions\AdditionerTest.cs" />
     <Compile Include="OneArgumentFunctions\ArccosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="OneArgumentFunctions\TwoTest.cs" />
+    <Compile Include="OneArgumentFunctions\PowerOfTwoTest.cs" />
     <Compile Include="TwoArgumentFunctions\TwoArgumentsFactoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -84,7 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentFunctions\ObjectOrientedCalculatorTestsFactories.cs" />
+    <Compile Include="OneArgumentFunctions\OneArgumentFactoryTestCase.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

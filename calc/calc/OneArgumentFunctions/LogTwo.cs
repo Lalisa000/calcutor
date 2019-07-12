@@ -5,10 +5,10 @@ namespace calc
     public class LogTwo : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления значения логарифма с основанием два 
+        /// a function to compute the value of the logarithm with base two 
         /// </summary>
-        /// <param name="firstNumber"> число, которому будет равен логарифм </param>
-        /// <returns> вовращение результата операции </returns>
+        /// < /// <param name="first Number"> the number to be equal to the logarithm </param>
+        /// < / / / <returns> returns the result of the operation </returns>
         public double calculate(double firstNumber)
         {
             if (firstNumber < 1)

@@ -5,10 +5,11 @@ namespace calc
     public static class OneArgumentFactory
     {
         /// <summary>
-        /// фабрика для функций с одним аргументом: логарифмические, тригонометрические и т.д.
+        /// factory for single-argument functions: logarithmic, trigonometric, etc.
         /// </summary>
-        /// <param name="name"> выбор конпки </param>
-        /// <returns> вовращение завершенных вычислений </returns>
+        /// < /// <param name="name"> button selection </param>
+        /// < /// <returns> return completed calculations </returns>
+
         public static IOneArgumentCalculator CreateCalculator(String name)
         {
             switch (name)
@@ -43,7 +44,7 @@ namespace calc
                 case "exp":
                     return new Exp();
                 case "two":
-                    return new Two();
+                    return new PowerOfTwo();
                 case "logtwo":
                     return new LogTwo();
                 case "Degree10":

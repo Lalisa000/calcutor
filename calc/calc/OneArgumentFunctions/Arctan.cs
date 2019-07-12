@@ -5,10 +5,10 @@ namespace calc
     public class Arctan : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления значения арктангенса
+        /// function to calculate the arctangent value
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение значения арктангенса </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return the arctangent value </returns>
         public double calculate(double firstNumber)
         {
             return Math.Atan(firstNumber);

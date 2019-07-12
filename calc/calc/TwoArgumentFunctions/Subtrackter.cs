@@ -3,11 +3,11 @@
     public class Subtrackter : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления разности двух чисел
+        /// function to calculate the difference between two numbers
         /// </summary>
-        /// <param name="firstNumber"> уменьшаемое </param>
-        /// <param name="secondNumber"> вычитаемое </param>
-        /// <returns> возвращение разности </returns>
+        /// <param name="firstNumber"> miniaturized </param>
+        /// <param name="secondNumber"> subtracted </param>
+        /// <returns> return difference </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             return firstNumber - secondNumber;

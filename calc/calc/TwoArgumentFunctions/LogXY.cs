@@ -5,11 +5,11 @@ namespace calc
     public class LogXY : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления значения логарифма с основанием Х
+        /// function to calculate the logarithm value with base X
         /// </summary>
-        /// <param name="firstNumber"> значение основания </param>
-        /// <param name="secondNumber"> значение результата логарифмирования </param>
-        /// <returns> возвращение результата операции </returns>
+        /// <param name="firstNumber"> base value </param>
+        /// <param name="secondNumber"> value of the log result </param>
+        /// <returns> return the result of the operation </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             if (firstNumber <= 0 && firstNumber == 1)

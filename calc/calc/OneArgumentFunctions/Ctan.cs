@@ -5,10 +5,10 @@ namespace calc
     public class Ctan : IOneArgumentCalculator
     {
         /// <summary>
-        /// функция для вычисления котангенса
+        /// a function to calculate the cotangent
         /// </summary>
-        /// <param name="firstNumber"> аргумент функции </param>
-        /// <returns> возвращение значения котангенса </returns>
+        /// < /// <param name="first Number"> function argument </param>
+        /// <returns> return the cotangent </returns>
         public double calculate(double firstNumber)
         {
             return 1 / Math.Tan(firstNumber);

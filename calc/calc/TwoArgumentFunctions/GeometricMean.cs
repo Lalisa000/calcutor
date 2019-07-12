@@ -5,11 +5,11 @@ namespace calc
     public class GeometricMean : ITwoArgumentsCalculator
     {
         /// <summary>
-        /// функция для вычисления среднего геометрического
+        /// function for calculating geometric mean
         /// </summary>
-        /// <param name="firstNumber"> первый множитель </param>
-        /// <param name="secondNumber"> второй множитель </param>
-        /// <returns> возвращение результата операции </returns>
+        /// <param name="firstNumber"> first multiplier </param>
+        /// <param name="secondNumber"> second multiplier </param>
+        /// <returns> return the result of the operation </returns>
         public double calculate(double firstNumber, double secondNumber)
         {
             if (firstNumber < 0 || secondNumber < 0)
